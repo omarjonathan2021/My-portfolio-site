@@ -1,0 +1,129 @@
+/*FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'poppins', sans-serif;
+}
+
+/* BACKGROUND */
+
+body {
+background: #081b29;
+color: #ededed;
+}
+
+/* STYLING HEADER */
+.header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+padding: 20px 10%;
+background: transparent;
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: ;
+}
+
+/* STYLING LOGO */
+.logo {
+font-size: 25px;
+color: #ededed;
+text-decoration: none;
+font-weight: 600;
+}
+
+/* STLYING NAVBAR ANCHOR "A" */
+.navbar a {
+font-size: 18px;
+color: #ededed;
+text-decoration: none;
+font-weight: 500;
+margin-left: 35px;
+transition: .3s;
+}
+
+/* STYLING NAVBAR */
+
+.navbar a:hover,
+.navbar a.active {
+    color: #00abf0;
+}
+
+/* STYLING HOME */
+
+.home {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+}
+
+/* STYLING HOME CONTENT WIDTH */
+
+.home-content {
+    max-width: 600px;
+}
+
+/* STYLING H1 */
+
+.home-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+
+/* STYLING H3 */
+
+.home-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+/* STYLING PARAGRAPH */
+
+.home-content p {
+    font-size: 16px;
+    margin: 20px 0 40px;
+}
+
+/* STYLING BUTTON BOX */
+
+.home-content .btn-box {
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+}
+
+/* STYLING BUTTON BOX LET'S TALK & HIRE ME */
+
+.home-content .btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:150px ;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px ;
+    font-size: 19px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* STYLING BUTTON BOX ANCHOR LINK 2 */
+
+.btn-box a:nth-child(2) {
+    background: transparent;
+    color: #00abf0;
+}
+
+/* STYLING BUTTON BOX ANCHOR LINK */
